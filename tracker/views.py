@@ -1,4 +1,6 @@
 from django.http import HttpResponseRedirect
+from django.shortcuts import render
+from django.http import HttpResponse
 
 def index(request):
-	return HttpResponseRedirect("https://covid19bulandshahr.herokuapp.com/bsr/")
+	return render(request,'front.html');
