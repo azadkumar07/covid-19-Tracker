@@ -25,13 +25,13 @@
 
 
 <div class="container" style="margin-top: 25px;">
-  <p align="center" style="font-size: 30px;" ><b> <b>COVID-19 Bulandshahr Dashboard</b></b></p>
+  <p align="center" style="font-size: 30px;" ><b> <b>District Bulandshahr COVID-19 Dashboard</b></b></p>
   <p align="center" style="margin-top: -20px;" id="dashboard"></p>
   <br>
 
-<div class="row" style="margin-left: 10px;">
+<div class="row" style="margin-left: 4px;">
 
-<div class="mx-3">
+<div style="margin-left: 30px;">
 
   <div class="card bg-light mb-3" style="width: 15rem;">
   <div class="card-header text-danger " align="center" style="font-size: 20px;" ><b>Confirmed</b></div>
@@ -42,10 +42,9 @@
 </div>
 
 
-
 </div>
 
-<div class="mx-3">
+<div style="margin-left: 30px;">
 
   <div class="card bg-light mb-3" style="width: 15rem;">
   <div class="card-header text-primary " align="center" style="font-size: 20px;" ><b>Active</b></div>
@@ -58,7 +57,7 @@
 </div>
 
 
-<div class="mx-3">
+<div style="margin-left: 30px;">
 
   <div class="card bg-light mb-3" style="width: 15rem;">
   <div class="card-header text-success " align="center" style="font-size: 20px;" ><b>Recovered</b></div>
@@ -71,7 +70,7 @@
 
 </div>
 
-<div class="mx-3">
+<div style="margin-left: 30px;">
 
 <div class="card bg-light mb-3" style="width: 15rem;">
   <div class="card-header" align="center" style="font-size: 20px;" ><b>Deceased</b></div>
@@ -125,7 +124,7 @@
 </div>
 
 <div class="container" style="margin-top: 60px;" >
-  <p align="center" style="font-size: 20px;" ><b>Date Wise Data of Covid 19 Cases in Bulandshahr*</b></p>
+  <p align="center" style="font-size: 20px;" ><b>Date Wise Data of Covid 19 Cases in District Bulandshahr*</b></p>
 
     <br>
 
@@ -330,16 +329,16 @@ var myChart = new Chart(ctx, {
             label: 'New Deaths',
             data: NewDeath,
             fill: false,
-            backgroundColor:'rgba(103, 103, 103, 2)',
-            borderColor: 'rgba(103, 103, 103, 5)',
+            backgroundColor:'rgba(103, 103, 103, 1)',
+            borderColor: 'rgba(103, 103, 103, 1)',
             borderWidth: 1
         },
         {
             label: 'New Recoveries',
             data: NewRecoveries,
             fill: false,
-            backgroundColor:'rgba(25,161,25, 2)',
-            borderColor: 'rgba(25,161,25, 5)',
+            backgroundColor:'rgba(25,161,25,1)',
+            borderColor: 'rgba(25,161,25, 1)',
             borderWidth: 1
         }
         ]
@@ -366,16 +365,16 @@ var myChart = new Chart(ctx, {
             label: 'New Cases',
             data: NewCases,
             fill: false,
-            backgroundColor:'rgba(255, 0, 0, 2)',
-            borderColor: 'rgba(255, 0, 0, 5)',
+            backgroundColor:'rgba(255, 0, 0, 1)',
+            borderColor: 'rgba(255, 0, 0, 1)',
             borderWidth: 1
         },
         {
             label: 'New Recoveries',
             data: NewRecoveries,
             fill: false,
-            backgroundColor:'rgba(25,161,25, 2)',
-            borderColor: 'rgba(25,161,25, 5)',
+            backgroundColor:'rgba(25,161,25, 1)',
+            borderColor: 'rgba(25,161,25, 1)',
             borderWidth: 1
         }
         ]
@@ -401,8 +400,8 @@ var myChart = new Chart(ctx, {
             label: 'Confirmed Cases',
             data: total,
             fill: false,
-            backgroundColor:'rgba(255, 0, 0, 2)',
-            borderColor: 'rgba(255, 0, 0, 5)',
+            backgroundColor:'rgba(255, 0, 0, 1)',
+            borderColor: 'rgba(255, 0, 0, 1)',
             borderWidth: 1
         }]
     },
@@ -426,8 +425,8 @@ var myChart = new Chart(ctx, {
             label: 'Active Cases',
             data: active,
             fill: false,
-            backgroundColor:'rgba(54, 162, 235, 2)',
-            borderColor: 'rgba(54, 162, 235, 5)',
+            backgroundColor:'rgba(54, 162, 235, 1)',
+            borderColor: 'rgba(54, 162, 235, 1)',
             borderWidth: 1
         }]
     },

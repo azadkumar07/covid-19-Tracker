@@ -12,10 +12,11 @@ def index(request):
 
 	#Extract data from server
 	all_data=data.objects.all()
+	
 
 	#Length of Data
 	l=len(all_data)
-
+	
 	#List for parameters
 	Tdate=["01-01-2020"]
 	Ttotal=[0]
